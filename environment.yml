@@ -1,15 +1,14 @@
 ﻿name: boltox
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python=3.12
   - jupyter
   - shap
-  - xgboost
+  - xgboost=3.*
   - matplotlib
-  - rdkit
+  - rdkit=2026.*
   - numpy
-  - scikit-learn
+  - scikit-learn=1.9.*
   - pandas
-prefix: C:\Users\SERGIO\miniforge3\envs\boltox
+
