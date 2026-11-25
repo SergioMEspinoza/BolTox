@@ -145,7 +145,7 @@ CREATE TABLE colecta (
     longitud NUMERIC(9,6) CHECK (longitud BETWEEN -70 AND -57),
     altitud_msnm INTEGER CHECK (altitud_msnm BETWEEN 70 AND 6600),
     anio_colecta SMALLINT CHECK (anio_colecta BETWEEN 1800 AND 2100),
-    mes_coelcta SMALLINT CHECK (mes_colecta BETWEEN 1 AND 12),
+    mes_colecta SMALLINT CHECK (mes_colecta BETWEEN 1 AND 12),
     herbario TEXT,
     voucher  TEXT,
     creado_en TIMESTAMPTZ NOT NULL DEFAULT now(),
